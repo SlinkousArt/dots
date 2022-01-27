@@ -15,14 +15,14 @@ new_window none
 default_border none
 
 # Auto Start
-exec_always --no-startup-id picom -b
+exec_always --no-startup-id picom -b --backend glx --vsync
 exec_always --no-startup-id redshift -x && redshift -O 4000k
 exec_always --no-startup-id killall dunst; dunst
 exec_always --no-startup-id feh --bg-fill -r -z ~/Pictures/Wallpapers
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 #Apps
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec kitty
 bindsym $mod+r exec --no-startup-id rofi -show drun
 bindsym $mod+Left resize shrink width 20 px
 bindsym $mod+Down resize grow height 20 px
@@ -80,5 +80,7 @@ bindsym $mod+Shift+l exec sh $HOME/.local/bin/lock
 bindsym $mod+Shift+e exit
 
 #Rules
-for_window[class="feh"] floating toggle
-for_window[class="sxiv"] floating toggle
+for_window [class="feh"] floating toggle
+for_window [class="sxiv"] floating toggle
+for_window [class="nitrogen"] floating toggle
+for_window [class=".*"] border none
