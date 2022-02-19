@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="preview/preview.gif"> 
+  <img src="preview/unknown.png"> 
 </p>
 
 # Installation
