@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="preview/unknown.png"> 
+  <img src="https://user-images.githubusercontent.com/83504509/169629801-7ebede3e-4420-4543-9023-c8b24a74345a.png"> 
 </p>
 
 # Installation
