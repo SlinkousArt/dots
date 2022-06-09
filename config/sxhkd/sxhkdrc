@@ -36,8 +36,11 @@ XF86MonBrightnessDown
 super + Tab
   bspc node -t {floating,tiled}
 
-super + q
-  bspc node -{c,k}
+supoer + shift + tab
+  bspc node -t \~pseudo_tiled
+
+super + {_,shift + }q
+    bspc node -{c,k}
 
 alt + Tab
   bspc node -f next.local.!hidden.window
@@ -47,6 +50,9 @@ super + {Up,Down,Left,Right}
 
 super + shift + {Up,Down,Left,Right}
   bspc node -s {north,south,west,east}
+
+super + alt + {Up,Down,Left,Right}
+  bspc node -p {north,south,west,east}
 
 super + space
   bspc node -t \~fullscreen
