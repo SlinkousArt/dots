@@ -1,5 +1,5 @@
 <h1 align="center">Dotfiles</h1>
-<h4 align="center">dotfiles by Manas140</h4>
+<h4 align="center">dotfiles by Manas140m, edited by SlinkousArt</h4>
 
 <p align="center">
     <a href="https://github.com/Manas140/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/Manas140/dotfiles?colorA=151515&colorB=8C977D&style=for-the-badge&logo=starship"></a>
