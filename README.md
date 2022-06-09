@@ -28,7 +28,8 @@
 | super + shift + e | exit wm |
 | super + shift + r | restart wm |
 | super + Tab | toggle floating/tiling |
-| super + q | kill focused window |
+| super + q | close focused window |
+| super + Shift+ q | kill focused window |
 | alt + Tab | toggle window focus |
 | super + Arrows [Up,Down,Left,Right] | resize window |
 | super + shift + [Up,Down,Left,Right] | swap window |
