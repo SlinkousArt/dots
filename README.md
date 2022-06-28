@@ -13,7 +13,7 @@
 
 # Installation
 ```
-  git clone https://github.com/Manas140/dotfiles.git && cd dotfiles
+  git clone https://github.com/SlinkousArt/dots.git && cd dotfiles
   ./install.sh 
 ```
 
