@@ -54,5 +54,8 @@ super + shift + {Up,Down,Left,Right}
 super + alt + {Up,Down,Left,Right}
   bspc node -p {north,south,west,east}
 
+super + alt + space
+  bspc node -p cancel
+
 super + space
   bspc node -t \~fullscreen
